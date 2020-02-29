@@ -1,6 +1,6 @@
 FROM postgres:9.6-alpine
 
-ENV PGTAP_VERSION v1.0.0
+ENV PGTAP_VERSION v1.1.0
 
 RUN apk update && apk upgrade \
   && apk add perl \
